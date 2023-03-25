@@ -20,9 +20,8 @@ body {
 }
 
 h1, h2, h3{
-    color:rgb(6, 5, 5);
     font-family: Helvetica, Arial, sans-serif;
-    padding: 10px 0;
+    padding: 10px ;
 }
 
 p, a{
@@ -36,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h3 {
@@ -44,21 +43,6 @@ h3 {
 }
 
 
-#header {
-    z-index: 1;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10px;
-    background-color: white;
-    width: 100%;
-}
-
-#logo-header {
-    width: 170px;
-    height: 50px;
-}
 
 #header ul {
     list-style: none;
@@ -70,8 +54,6 @@ h3 {
     color: rgb(105, 103, 103);
     margin: 0 35px;
 }
-
-
 
 #main-img {
     display: flex;
@@ -93,7 +75,7 @@ h3 {
 }
 
 #main-img h2 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 100;
     color: white;
     text-align: center;
@@ -144,8 +126,6 @@ main p {
     margin-bottom: 40px;
 }
 
-
-
 footer {
     background-color: #00B172;
     display: flex;
@@ -184,7 +164,7 @@ footer p {
 
 #spotify-app {
     width: 300px;
-    padding: 60px 0;
+    padding: 100px;
 }
 
 
@@ -199,7 +179,7 @@ footer p {
 
 #logo-header {
   width: 170px;
-  height: 50px;
+  height: 60px;
 }
 
 #header ul {
@@ -272,7 +252,7 @@ footer p {
 }
 
 footer article {
-  margin: 40px 0;
+  margin: 20px 10px;
 }
 
 footer h2 {
@@ -286,12 +266,12 @@ footer p {
 }
 
 #logo-footer {
-  width: 200px;
+  width: 150px;
   position: absolute;
   align-self: center;
 }
 
 #spotify-app {
   width: 300px;
-  padding: 60px 0;
+  padding: 110px 10px;
 }
